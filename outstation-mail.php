@@ -9,6 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $pickupTime   = $_POST['pickup_time'] ?? '';
     $returnDate   = $_POST['return_date'] ?? '';
     $email        = filter_var($_POST['email'] ?? '', FILTER_SANITIZE_EMAIL);
+    
 
     // Validate required fields
     if (
