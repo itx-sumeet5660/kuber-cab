@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Don’t block important assets
+# If any folders like /admin/ or /private/ exist, then disallow them individually
+
+# Sitemap
+Sitemap: https://kubercab.co/sitemap.xml
