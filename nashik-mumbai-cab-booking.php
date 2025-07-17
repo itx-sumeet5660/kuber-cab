@@ -17,8 +17,6 @@
 <!-- Canonical URL -->
 <link rel="canonical" href="https://kubercab.co/nashik-mumbai-cab-booking" />
 
-<!-- Favicon -->
-<link rel="icon" href="https://kubercab.co/img/logo.png" type="image/png" />
 
 <!-- Open Graph Meta Tags -->
 <meta property="og:title" content="Nashik to Mumbai Cab Booking | One Way & Round Trip Taxi – Kuber Cab" />
