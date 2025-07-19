@@ -10,6 +10,7 @@
             <ul>
               <li><a href="/nashik-mumbai-cab-booking">Nashik to Mumbai Cab</a></li>
               <li><a href="/nashik-pune-cab-booking">Nashik to Pune Cab</a></li>
+              <li><a href="/nashik-shirdi-cab-booking">Nashik to Shirdi Cab</a></li>
             </ul>
           </li>
           <li><a href="/airport-cab">Airport Booking</a></li>
