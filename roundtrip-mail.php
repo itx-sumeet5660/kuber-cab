@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST['form_type'] === 'roundtrip')
 
     $finalTime = $pickupTime . ' ' . $ampm;
 
-    if (empty($name) || empty($contact) || empty($email) || empty($from) || empty($to) || empty($pickupDate) || empty($pickupTime) || empty($returnDate)) {
+    if (empty($name) || empty($contact) || empty($email) || empty($from) || empty($to) || empty($pickupDate) || empty($pickupTime) || empty($returnDate) || empty($ampm)) {
         echo "<script>alert('Please fill all required fields.'); window.history.back();</script>";
         exit;
     }
