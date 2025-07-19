@@ -3,6 +3,114 @@
     <?php include 'head.php'; ?>
 	<!-- Title -->
 <!-- Title -->
+<style>
+.custom-booking-wrapper {
+  background: #f8f9fa;
+  padding: 30px;
+  max-width: 850px;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.07);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.custom-booking-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.custom-tab {
+  background: #ffffff;
+  border: 2px solid #007bff;
+  color: #007bff;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.custom-tab.active {
+  background: #007bff;
+  color: #fff;
+}
+
+.custom-booking-form {
+  display: none;
+}
+
+.custom-booking-form.active {
+  display: block;
+}
+
+.custom-booking-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.custom-col {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-col label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.custom-col input,
+.custom-col select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.custom-submit-btn {
+  background: #007bff;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+.custom-submit-btn:hover {
+  background: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .custom-col {
+    flex: 1 1 100%;
+  }
+
+  .custom-booking-wrapper {
+    padding: 20px;
+  }
+
+  .custom-booking-tabs {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .custom-tab {
+    width: 100%;
+    text-align: center;
+  }
+}
+</style>
+
+
+
 <title>Nashik to Mumbai Cab Booking | One Way & Round Trip Taxi – Kuber Cab</title>
 
 <!-- Meta Description -->
@@ -422,55 +530,34 @@
 			<script src="js/common-js.js"></script>
 
 <script>
-// Custom Booking Tabs & Auto Date-Time
 document.addEventListener("DOMContentLoaded", function () {
-  const tabs = document.querySelectorAll(".custom-tab");
-  const forms = document.querySelectorAll(".custom-booking-form");
-
-  tabs.forEach(tab => {
-    tab.addEventListener("click", function () {
-      tabs.forEach(t => t.classList.remove("active"));
-      forms.forEach(f => f.classList.remove("active"));
-
-      tab.classList.add("active");
-      const tabId = tab.getAttribute("data-tab");
-      document.getElementById(tabId).classList.add("active");
-    });
-  });
-
-  // Auto-fill current date & time
   const now = new Date();
   const yyyy = now.getFullYear();
   const mm = String(now.getMonth() + 1).padStart(2, '0');
   const dd = String(now.getDate()).padStart(2, '0');
-  const dateStr = `${yyyy}-${mm}-${dd}`;
-
   const hr = now.getHours();
   const min = String(now.getMinutes()).padStart(2, '0');
   const ampm = hr >= 12 ? "PM" : "AM";
   const hr12 = hr % 12 || 12;
   const timeStr = `${String(hr12).padStart(2, '0')}:${min}`;
 
+  const dateStr = `${yyyy}-${mm}-${dd}`;
+
   document.querySelectorAll("input[name='pickup_date']").forEach(el => el.value = dateStr);
   document.querySelectorAll("input[name='pickup_time']").forEach(el => el.value = timeStr);
   document.querySelectorAll("select[name='ampm']").forEach(el => el.value = ampm);
 
-  // Page Title
-  document.querySelectorAll("#page_title").forEach(el => {
-    if (!el.value) {
-      el.value = document.title;
-    }
-  });
-});
+  const tabs = document.querySelectorAll(".custom-tab");
+  const forms = document.querySelectorAll(".custom-booking-form");
 
-// Smooth scroll for anchor links to #booking-form
-document.querySelectorAll('a[href^="#booking-form"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault();
-    const form = document.querySelector(this.getAttribute('href'));
-    if (form) {
-      form.scrollIntoView({ behavior: 'smooth' });
-    }
+  tabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+      tabs.forEach(t => t.classList.remove("active"));
+      forms.forEach(f => f.classList.remove("active"));
+      tab.classList.add("active");
+      const tabId = tab.getAttribute("data-tab");
+      document.getElementById(tabId).classList.add("active");
+    });
   });
 });
 </script>
