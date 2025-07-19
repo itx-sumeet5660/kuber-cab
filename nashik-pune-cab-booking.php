@@ -16,8 +16,6 @@
 <!-- Canonical URL -->
 <link rel="canonical" href="https://kubercab.co/nashik-pune-cab-booking" />
 
-<!-- Favicon -->
-<link rel="icon" href="https://kubercab.co/img/logo.png" type="image/png" />
 
 <!-- Open Graph (Facebook / WhatsApp) -->
 <meta property="og:title" content="Nashik to Pune Cab Booking | One Way & Round Trip Taxi – Kuber Cab" />
