@@ -2,52 +2,51 @@
 	<html lang="zxx" class="no-js">
     <?php include 'head.php'; ?>
 	<!-- Page Title -->
-<title>Nashik to Pune Cab Booking | One Way & Round Trip Taxi – Kuber Cab</title>
+<title>Nashik to Shirdi Cab Booking | One Way & Round Trip Taxi – Kuber Cab</title>
 
 <!-- Meta Description -->
-<meta name="description" content="Book your cab from Nashik to Pune with Kuber Cab. One-way & round trip taxi service, clean AC cars, fixed pricing & professional drivers. Available 24x7.">
+<meta name="description" content="Book your cab from Nashik to Shirdi with Kuber Cab. One-way & round-trip taxi service, AC cabs, fixed fares & experienced drivers. 24/7 bookings available.">
 
 <!-- Meta Keywords -->
-<meta name="keywords" content="Nashik to Pune cab, Nashik to Pune taxi, one way cab Nashik to Pune, round trip cab Nashik Pune, Kuber Cab, AC cab service Nashik Pune, online taxi booking Nashik to Pune, Pune drop taxi, cab service Nashik to Pune, affordable cab from Nashik to Pune">
+<meta name="keywords" content="Nashik to Shirdi cab, cab from Nashik to Shirdi, one way taxi Nashik Shirdi, round trip cab Shirdi, Nashik to Shirdi drop taxi, Kuber Cab, Shirdi travel taxi, AC cab to Shirdi, Nashik Shirdi car booking, affordable taxi to Shirdi">
 
 <!-- Robots -->
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 
 <!-- Canonical URL -->
-<link rel="canonical" href="https://kubercab.co/nashik-pune-cab-booking" />
+<link rel="canonical" href="https://kubercab.co/nashik-shirdi-cab-booking" />
 
-
-<!-- Open Graph (Facebook / WhatsApp) -->
-<meta property="og:title" content="Nashik to Pune Cab Booking | One Way & Round Trip Taxi – Kuber Cab" />
-<meta property="og:description" content="Travel from Nashik to Pune with Kuber Cab's 24/7 taxi service. Book AC cabs with fixed fares, expert drivers & clean cars. One-way or round trip." />
-<meta property="og:url" content="https://kubercab.co/nashik-pune-cab-booking" />
+<!-- Open Graph (Facebook & WhatsApp) -->
+<meta property="og:title" content="Nashik to Shirdi Cab Booking | One Way & Round Trip Taxi – Kuber Cab" />
+<meta property="og:description" content="Travel from Nashik to Shirdi with clean, AC taxis by Kuber Cab. Fixed pricing, experienced drivers & 24/7 booking support. Book now for a smooth ride to Sai Baba temple." />
+<meta property="og:url" content="https://kubercab.co/nashik-shirdi-cab-booking" />
 <meta property="og:image" content="https://kubercab.co/img/logo.png" />
 <meta property="og:type" content="website" />
 
 <!-- Twitter Meta -->
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="kubercab.co">
-<meta property="twitter:url" content="https://kubercab.co/nashik-pune-cab-booking">
-<meta name="twitter:title" content="Nashik to Pune Cab Booking | One Way & Round Trip Taxi – Kuber Cab">
-<meta name="twitter:description" content="Book your ride from Nashik to Pune with Kuber Cab. 24/7 reliable service with clean AC cars, trained drivers & transparent pricing. Book now!">
-<meta property="twitter:image" content="https://kubercab.co/img/logo.png">
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:domain" content="kubercab.co" />
+<meta property="twitter:url" content="https://kubercab.co/nashik-shirdi-cab-booking" />
+<meta name="twitter:title" content="Nashik to Shirdi Cab Booking | One Way & Round Trip Taxi – Kuber Cab" />
+<meta name="twitter:description" content="Book your Nashik to Shirdi cab online with Kuber Cab. Affordable, reliable taxi service for one-way and round trips. AC cars & experienced drivers." />
+<meta property="twitter:image" content="https://kubercab.co/img/logo.png" />
 
-<!-- JSON-LD Structured Data -->
+<!-- Schema Markup (JSON-LD) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "Nashik to Pune Cab Booking",
-  "description": "Book a taxi from Nashik to Pune with Kuber Cab. Safe, clean, AC cars for one-way or round trip. Fixed fares and 24x7 service from experienced drivers.",
+  "name": "Nashik to Shirdi Cab Booking",
+  "description": "Kuber Cab provides cab service from Nashik to Shirdi. Safe, clean, AC cars for one-way or round trip. Fixed fares, experienced drivers, and 24/7 booking available.",
   "brand": {
     "@type": "Brand",
     "name": "Kuber Cab"
   },
   "offers": {
     "@type": "Offer",
-    "url": "https://kubercab.co/nashik-pune-cab-booking",
+    "url": "https://kubercab.co/nashik-shirdi-cab-booking",
     "priceCurrency": "INR",
-    "price": "Starting from 2499",
+    "price": "Starting from 1499",
     "itemCondition": "https://schema.org/NewCondition",
     "availability": "https://schema.org/InStock"
   },
@@ -70,6 +69,7 @@
 
 
 
+
 </head>
 		<body>	
 			<?php include 'nav-bar.php'; ?>
@@ -83,10 +83,10 @@
 						<div class="banner-content col-lg-6 col-md-6 ">
 							<h6 class="text-white ">Kuber Cab</h6>
 							<h1 class="text-uppercase">
-								Book Nashik to Pune Cab – Safe, Affordable & Always On Time	
+								Comfortable & Affordable Nashik to Shirdi Cab Booking Made Simple 
 							</h1>
 							<p class="pt-10 pb-10 text-white">
-								Looking for a trusted Nashik to Pune cab service? Kuber Cab provides safe, affordable, and comfortable one-way and round-trip cabs with AC vehicles and professional drivers. Whether you're traveling to Pune Airport, Hinjewadi, Shivaji Nagar, or any major location, we offer doorstep pickup, 24/7 availability, and easy online cab booking for a smooth and reliable journey.
+								Book a reliable cab from Nashik to Shirdi with Kuber Cab. Enjoy smooth travel in AC cars, on-time pickup, and experienced drivers. Perfect for Sai Baba Temple visits or quick getaways — book online in seconds.
 							</p>
 							<a href="tel:+917775000223" class="primary-btn text-uppercase">Book Cab Now</a>
 						</div>
@@ -209,9 +209,9 @@
 							<img class="img-fluid" src="img/about-img.webp" alt="">
 						</div>
 						<div class="col-lg-6 about-right">
-							<h1>Why Choose Us for Nashik to Pune Cab Booking?</h1>
+							<h1>Why Choose Us for Nashik to Shirdi Cab Booking</h1>
 							<h4>We are here to listen from you deliver exellence</h4>
-							<p>When it comes to traveling between Nashik and Pune, Kuber Cab stands out for its punctual service, transparent pricing, and customer-first approach. We make your journey stress-free by offering reliable cabs with verified drivers, comfortable AC vehicles, and timely pickups — whether you're traveling for work, leisure, or airport transfers. From early morning departures to late-night arrivals, we’re here to ensure your ride is smooth, safe, and completely worry-free.
+							<p>Kuber Cab offers dependable Nashik to Shirdi taxi services with clean vehicles, trained drivers, and 24/7 support. We ensure every ride is punctual, comfortable, and priced right — ideal for one-way or round trips.
 							</p>
 							
 						</div>
@@ -224,7 +224,8 @@
 			<section class="services-area pb-120">
 				<div class="container">
 					<div class="row section-title">
-						<p>What Makes Kuber Cab the Preferred Choice for Nashik to Pune Travel</p>
+						<p>What Makes Kuber Cab the Preferred Choice for Nashik to Shirdi Travel</p>
+						<p>Experience Comfort, Convenience & Consistent Service</p>
 					</div>
 					<div class="row">
 						<div class="col-lg-4 single-service">
@@ -255,9 +256,9 @@
 			 <!-- other information -->
 <section class="info-section">
   <div class="container text-center-responsive">
-    <h2 class="section-heading">Nashik to Pune Cab Booking Made Easy – Airport, City & More</h2>
+    <h2 class="section-heading">Nashik to Shirdi Cab Booking Made Easy – Temple, City & More</h2>
     <p class="section-paragraph">
-    Kuber Cab offers an easy and reliable Nashik to Pune cab booking service tailored to suit every travel need — from airport transfers to daily city travel. Our cabs are available for pickup from all major areas in Nashik such as Indira Nagar, Canada Corner, Tidke Colony, and College Road, and we provide direct drop service to key locations in Pune including Shivaji Nagar, Swargate, Kothrud, Pune Railway Station, and Lohegaon Airport. Whether you’re a working professional, a student, or a family traveling together, our spacious AC cabs and trained drivers ensure a safe and peaceful ride. We also specialize in airport drops to Pune Airport and offer early morning or late-night service on request, making your journey flexible, affordable, and stress-free.
+   Get doorstep pickup in Nashik and drop at Shirdi Temple, hotels, or return to Nashik with ease. Kuber Cab provides fast booking, instant confirmation, and 24/7 cab service for all travel needs.
     </p>
   </div>
 </section>
@@ -387,40 +388,47 @@
 			</section>
 			<!-- End home-calltoaction Area -->
 <section class="faq-section">
-  <h2 class="faq-title">Nashik to Pune Cab Booking – Frequently Asked Questions</h2>
+  <h2 class="faq-title">Frequently Asked Questions – Nashik to Shirdi Cab Booking</h2>
 
   <div class="faq-item">
-    <button class="faq-question">1. Do you provide cab service from Nashik to Pune?</button>
+    <button class="faq-question">1. How far is Shirdi from Nashik and how long does it take by cab?</button>
     <div class="faq-answer">
-      <p>Yes, Kuber Cab offers comfortable and dependable Nashik to Pune cab services with experienced drivers and AC cabs. Whether you're heading to Pune city, Airport, Hinjewadi IT Park, Shivaji Nagar, or any major location, we ensure a smooth and safe ride.</p>
+      <p>The distance between Nashik and Shirdi is around 90 km, and it usually takes 2 to 2.5 hours by cab, depending on traffic and weather conditions.</p>
     </div>
   </div>
 
   <div class="faq-item">
-    <button class="faq-question">2. Can I book a one-way cab from Nashik to Pune?</button>
+    <button class="faq-question">2. Can I book a one-way cab from Nashik to Shirdi?</button>
     <div class="faq-answer">
-      <p>Absolutely. We offer affordable one-way cab services from Nashik to Pune, so you pay only for the drop without any hidden charges. It’s a great option for airport drops, business trips, or quick visits.</p>
+      <p>Yes, Kuber Cab offers convenient one-way cab service from Nashik to Shirdi with flexible pickup timing and no extra return charges.</p>
     </div>
   </div>
 
   <div class="faq-item">
-    <button class="faq-question">3. Do you provide airport drop service to Pune from Nashik?</button>
+    <button class="faq-question">3. Are your Nashik to Shirdi cabs available 24/7?</button>
     <div class="faq-answer">
-      <p>Yes, we offer Nashik to Pune Airport cab service with timely pickups and well-maintained vehicles. Whether your flight is early morning or late at night, our drivers ensure punctual and hassle-free airport travel.</p>
+      <p>Absolutely! Our cab service from Nashik to Shirdi is available 24/7. Whether it's an early morning temple visit or a late-night drop, we’re always ready.</p>
     </div>
   </div>
 
   <div class="faq-item">
-    <button class="faq-question">4. How can I book a cab from Nashik to Pune?</button>
+    <button class="faq-question">4. Do you provide airport pickup or drop from Nashik to Shirdi?</button>
     <div class="faq-answer">
-      <p>You can book easily through our website, WhatsApp, or by calling our support team. Just share your travel details, and we’ll confirm your booking instantly. You also get transparent pricing, no last-minute surprises, and real-time updates.</p>
+      <p>Yes, we offer pickup and drop services to and from Nashik Airport, Pune Airport, and Mumbai Airport for your Shirdi travel needs.</p>
     </div>
   </div>
 
   <div class="faq-item">
-    <button class="faq-question">5. What vehicles do you offer for the Nashik to Pune route?</button>
+    <button class="faq-question">5. What types of cars are available for the Nashik to Shirdi route?</button>
     <div class="faq-answer">
-      <p>We have a wide fleet of AC cabs including Sedans, SUVs, and Tempo Travellers. Whether you’re traveling solo, with family, or in a group, we have the right vehicle to match your needs — clean, comfortable, and driven by professionals.</p>
+      <p>We offer a range of well-maintained AC cars including Sedans, SUVs, and larger vehicles for families or groups — all driven by professional chauffeurs.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">6. How do I book a cab from Nashik to Shirdi?</button>
+    <div class="faq-answer">
+      <p>You can book online through our website or simply message us on WhatsApp for instant confirmation and details.</p>
     </div>
   </div>
 </section>

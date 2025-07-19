@@ -5,10 +5,6 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="/index">Home</a></li>
-          <li><a href="/airport-cab">Airport Booking</a></li>
-          <li><a href="/nashik-local-cab-booking">Local Cab </a></li>
-          <li><a href="/outstation-cab-booking">Outstation Cab</a></li>
-
           <!-- Dropdown for Our Routes -->
           <li class="menu-has-children"><a href="/outstation-cab-booking">Our Routes</a>
             <ul>
@@ -16,7 +12,9 @@
               <li><a href="/nashik-pune-cab-booking">Nashik to Pune Cab</a></li>
             </ul>
           </li>
-
+          <li><a href="/airport-cab">Airport Booking</a></li>
+          <li><a href="/nashik-local-cab-booking">Local Cab </a></li>
+          <li><a href="/outstation-cab-booking">Outstation Cab</a></li>     
           <!-- Call Now Button -->
           <li class="call-now-btn">
             <a href="tel:917775000223">Call Now</a>
