@@ -1,7 +1,5 @@
 <?php
-// oneway-mail.php
 if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST['form_type'] === 'oneway') {
-    $formType     = 'One Way';
     $name         = htmlspecialchars($_POST['name'] ?? '');
     $contact      = htmlspecialchars($_POST['contact'] ?? '');
     $email        = filter_var($_POST['email'] ?? '', FILTER_SANITIZE_EMAIL);
@@ -32,7 +30,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && $_POST['form_type'] === 'oneway') {
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
     $customerSubject = "Your One Way Booking Confirmation - Kuber Cab";
-    $customerMessage = "<html><body><p>Dear $name,</p><p>Thank you for booking your ride with <strong>Kuber Cab</strong>.</p><p><strong>Booking Details:</strong></p><ul><li><strong>From:</strong> $from</li><li><strong>To:</strong> $to</li><li><strong>Pickup Date:</strong> $pickupDate</li><li><strong>Pickup Time:</strong> $finalTime</li></ul><p>We will contact you shortly for confirmation.</p><p>Regards,<br>Kuber Cab Team</p></body></html>";
+    $customerMessage = "
+    <html><body>
+    <p>Dear $name,</p>
+    <p>Thank you for booking with <strong>Kuber Cab</strong>.</p>
+    <p><strong>Booking Summary:</strong></p>
+    <ul>
+        <li><strong>From:</strong> $from</li>
+        <li><strong>To:</strong> $to</li>
+        <li><strong>Pickup Date:</strong> $pickupDate</li>
+        <li><strong>Pickup Time:</strong> $finalTime</li>
+    </ul>
+    <p>We will contact you shortly for confirmation.</p>
+    <p>Regards,<br>Kuber Cab Team</p>
+    </body></html>";
+
     $customerHeaders = "From: Kuber Cab <kubercab4444@gmail.com>\r\n";
     $customerHeaders .= "Content-Type: text/html; charset=UTF-8\r\n";
 

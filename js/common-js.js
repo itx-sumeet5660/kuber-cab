@@ -113,7 +113,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const ampm = hr >= 12 ? "PM" : "AM";
   const hr12 = hr % 12 || 12;
   const timeStr = `${String(hr12).padStart(2, '0')}:${min}`;
-
   const dateStr = `${yyyy}-${mm}-${dd}`;
 
   document.querySelectorAll("input[name='pickup_date']").forEach(el => el.value = dateStr);
@@ -122,6 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const tabs = document.querySelectorAll(".custom-tab");
   const forms = document.querySelectorAll(".custom-booking-form");
+
   tabs.forEach(tab => {
     tab.addEventListener("click", () => {
       tabs.forEach(t => t.classList.remove("active"));
