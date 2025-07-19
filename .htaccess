@@ -5,7 +5,7 @@ RewriteCond %{THE_REQUEST} /index(\.php)? [NC]
 RewriteRule ^index(\.php)?$ / [R=301,L]
 
 # 2. Skip rewrite for important PHP handlers (POST support)
-RewriteCond %{REQUEST_URI} ^/(email-function-air|nashik-local-booking-mail|email-function|outstation-mail|location_mail)\.php$ [NC]
+RewriteCond %{REQUEST_URI} ^/(email-function-air|nashik-local-booking-mail|email-function|outstation-mail|location_mail | oneway-mail | roundtrip-mail)\.php$ [NC]
 RewriteRule ^ - [L]
 
 # 3. Redirect .php to clean URLs (SEO fix)
