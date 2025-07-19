@@ -102,9 +102,9 @@
   </div>
 
   <!-- ONE WAY FORM -->
-  <form class="custom-booking-form active" id="oneway" action="test-mail.php" method="POST">
+  <form class="custom-booking-form active" id="oneway" action="oneway-mail.php" method="POST">
     <input type="hidden" name="form_type" value="oneway">
-    <input type="hidden" name="page_title" id="page_title" value="Nashik to Mumbai One Way Booking">
+    <input type="hidden" name="page_title" id="page_title_oneway" value="Nashik to Mumbai One Way Booking">
 
     <div class="custom-booking-row">
       <div class="custom-col">
@@ -156,9 +156,9 @@
   </form>
 
   <!-- ROUND TRIP FORM -->
-  <form class="custom-booking-form" id="roundtrip" action="test-mail.php" method="POST">
+  <form class="custom-booking-form" id="roundtrip" action="roundtrip-mail.php" method="POST">
     <input type="hidden" name="form_type" value="roundtrip">
-    <input type="hidden" name="page_title" id="page_title" value="Nashik to Mumbai Round Trip Booking">
+    <input type="hidden" name="page_title" id="page_title_roundtrip" value="Nashik to Mumbai Round Trip Booking">
 
     <div class="custom-booking-row">
       <div class="custom-col">
@@ -214,6 +214,7 @@
   </form>
 </div>
 <!-- Custom Booking Form ends -->
+
 
 			<!-- Start home-about Area -->
 			<section class="home-about-area section-gap">

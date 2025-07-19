@@ -100,3 +100,35 @@ document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll("input[name='pickup_time']").forEach(el => el.value = timeStr);
   document.querySelectorAll("select[name='ampm']").forEach(el => el.value = ampm);
 });
+
+
+// test_page
+document.addEventListener("DOMContentLoaded", function () {
+  const now = new Date();
+  const yyyy = now.getFullYear();
+  const mm = String(now.getMonth() + 1).padStart(2, '0');
+  const dd = String(now.getDate()).padStart(2, '0');
+  const hr = now.getHours();
+  const min = String(now.getMinutes()).padStart(2, '0');
+  const ampm = hr >= 12 ? "PM" : "AM";
+  const hr12 = hr % 12 || 12;
+  const timeStr = `${String(hr12).padStart(2, '0')}:${min}`;
+
+  const dateStr = `${yyyy}-${mm}-${dd}`;
+
+  document.querySelectorAll("input[name='pickup_date']").forEach(el => el.value = dateStr);
+  document.querySelectorAll("input[name='pickup_time']").forEach(el => el.value = timeStr);
+  document.querySelectorAll("select[name='ampm']").forEach(el => el.value = ampm);
+
+  const tabs = document.querySelectorAll(".custom-tab");
+  const forms = document.querySelectorAll(".custom-booking-form");
+  tabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+      tabs.forEach(t => t.classList.remove("active"));
+      forms.forEach(f => f.classList.remove("active"));
+      tab.classList.add("active");
+      const tabId = tab.getAttribute("data-tab");
+      document.getElementById(tabId).classList.add("active");
+    });
+  });
+});
