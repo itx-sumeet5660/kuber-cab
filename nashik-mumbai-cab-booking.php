@@ -386,6 +386,45 @@
 				</div>	
 			</section>
 			<!-- End home-calltoaction Area -->
+			 <section class="faq-section">
+  <h2 class="faq-title">Nashik to Mumbai Cab Booking – Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <button class="faq-question">1. Do you provide cab service from Nashik to Mumbai?</button>
+    <div class="faq-answer">
+      <p>Yes, Kuber Cab offers reliable and affordable Nashik to Mumbai cab services with AC vehicles and professional drivers. Whether you're heading to South Mumbai, Andheri, Borivali, or Mumbai Airport, we ensure a comfortable and timely journey.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">2. Can I book a cab for Mumbai Airport drop from Nashik?</button>
+    <div class="faq-answer">
+      <p>Absolutely. We provide 24/7 airport drop service from Nashik to Chhatrapati Shivaji Maharaj International Airport (T1 & T2). Our drivers are punctual and trained to ensure you reach the terminal safely and on time, even for early morning or late-night flights.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">3. Is one-way cab booking available from Nashik to Mumbai?</button>
+    <div class="faq-answer">
+      <p>Yes, we offer one-way cab booking from Nashik to Mumbai at fixed and transparent rates. You only pay for the drop, with no extra return fare.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">4. How do I book a Nashik to Mumbai cab with Kuber Cab?</button>
+    <div class="faq-answer">
+      <p>Booking is simple and quick. You can reserve your cab online through our website, connect via WhatsApp, or call our support team. We provide instant confirmation and real-time ride tracking for a stress-free travel experience.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">5. What types of cabs are available for Nashik to Mumbai travel?</button>
+    <div class="faq-answer">
+      <p>We offer a wide range of well-maintained AC vehicles, including Sedans, SUVs, and Tempo Travellers, suitable for solo travelers, families, or groups. All our cabs come with experienced drivers and sufficient luggage space for long-distance comfort.</p>
+    </div>
+  </div>
+</section>
+
 			
 	<?php include 'foot-nav.php'; ?>
 

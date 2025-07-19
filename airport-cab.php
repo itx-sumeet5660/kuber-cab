@@ -377,6 +377,45 @@
 				</div>	
 			</section>
 			<!-- End home-calltoaction Area -->
+			 <section class="faq-section">
+  <h2 class="faq-title">Airport Cab Service – FAQs</h2>
+
+  <div class="faq-item">
+    <button class="faq-question">1. Do you provide airport cab service from Nashik, Shirdi, Mumbai, and Pune?</button>
+    <div class="faq-answer">
+      <p>Yes, Kuber Cab offers reliable airport pickup and drop services from Nashik, Shirdi, Mumbai, and Pune. Whether you're heading to or from Chhatrapati Shivaji Maharaj International Airport (Mumbai), Pune Airport, or regional pick-up points in Nashik or Shirdi, we've got you covered 24/7.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">2. Can I schedule an early morning or late-night airport drop?</button>
+    <div class="faq-answer">
+      <p>Absolutely. We operate round the clock, so you can book your airport cab at any time — day or night. Advance booking is recommended to ensure timely service, especially for early morning flights or late-night arrivals.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">3. How do I book an airport cab with Kuber Cab?</button>
+    <div class="faq-answer">
+      <p>You can book an airport cab online through our website or simply contact us via WhatsApp or call. Share your pickup location, destination airport, date, and time — and we’ll confirm your ride instantly.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">4. Are your airport cab fares fixed and transparent?</button>
+    <div class="faq-answer">
+      <p>Yes, all our fares are fixed and clearly communicated at the time of booking. There are no hidden fees — what you see is what you pay.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">5. Do your cabs have space for luggage and family travel?</button>
+    <div class="faq-answer">
+      <p>Yes, our cabs are spacious and well-suited for family trips or solo travel with luggage. You can choose from Sedans, SUVs, or Tempo Travellers depending on your need.</p>
+    </div>
+  </div>
+</section>
+
 			
 	<?php include 'foot-nav.php'; ?>
 	
@@ -394,5 +433,6 @@
 			<script src="js/jquery.nice-select.min.js"></script>							
 			<script src="js/mail-script.js"></script>	
 			<script src="js/main.js"></script>	
+			<script src="js/common-js.js"></script>
 		</body>
 	</html>

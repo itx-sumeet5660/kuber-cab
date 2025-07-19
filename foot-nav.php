@@ -91,6 +91,8 @@
         <li><a href="/airpot-drop-pickup">Airport Pickup & Drop</a></li>
         <li><a href="/nashik-local-cab-booking">Nashik Local Cab Booking</a></li>
         <li><a href="/outstation-cab-booking">Outstation Cab Booking</a></li>
+        <li><a href="/nashik-mumbai-cab-booking">Nashik to Mumbai Cab</a></li>
+        <li><a href="/nashik-pune-cab-booking">Nashik to Pune Cab</a></li>
       </ul>
     </div>
 

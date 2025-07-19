@@ -380,6 +380,45 @@
 				</div>	
 			</section>
 			<!-- End home-calltoaction Area -->
+			 <section class="faq-section">
+  <h2 class="faq-title">Nashik Local Cab Booking – Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <button class="faq-question">1. Do you provide local cab service within Nashik city?</button>
+    <div class="faq-answer">
+      <p>Yes, Kuber Cab offers reliable and affordable local cab booking in Nashik for personal, family, or business travel. Whether it's a short city ride, market visit, hospital drop, or full-day rental, our cabs are available across all major areas of Nashik.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">2. Can I book a cab for hourly or full-day rental in Nashik?</button>
+    <div class="faq-answer">
+      <p>Absolutely. We offer flexible packages for hourly, half-day, and full-day cab rental in Nashik, ideal for sightseeing, meetings, or day-long city plans.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">3. What areas do you cover in Nashik for local travel?</button>
+    <div class="faq-answer">
+      <p>Our local cab service covers all major parts of Nashik including Indira Nagar, Gangapur Road, College Road, Nashik Road, Panchavati, Makhmalabad, and more.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">4. How do I book a local cab in Nashik with Kuber Cab?</button>
+    <div class="faq-answer">
+      <p>You can easily book through our website, WhatsApp, or by calling our team. Just share your pickup point, trip duration or distance, and we’ll handle the rest with instant confirmation.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">5. Are your cabs safe and comfortable for family or solo travel?</button>
+    <div class="faq-answer">
+      <p>Yes, all our cabs are sanitized, AC-equipped, and driven by trained professionals. Whether you’re traveling alone or with family, we ensure a comfortable and safe ride across Nashik.</p>
+    </div>
+  </div>
+</section>
+
 			
 	<?php include 'foot-nav.php'; ?>
 	
@@ -397,5 +436,6 @@
 			<script src="js/jquery.nice-select.min.js"></script>							
 			<script src="js/mail-script.js"></script>	
 			<script src="js/main.js"></script>	
+			<script src="js/common-js.js"></script>
 		</body>
 	</html>

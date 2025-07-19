@@ -393,6 +393,45 @@
 				</div>	
 			</section>
 			<!-- End home-calltoaction Area -->
+			 <section class="faq-section">
+  <h2 class="faq-title">Outstation Cab Booking – Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <button class="faq-question">1. Do you provide outstation cab services from Nashik?</button>
+    <div class="faq-answer">
+      <p>Yes, Kuber Cab offers reliable and affordable outstation cab services from Nashik to popular destinations like Mumbai, Pune, Shirdi, Aurangabad, and more. Whether it’s a quick family trip or a planned weekend getaway, our cabs are available 24/7 for your travel needs.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">2. Can I book a single trip or round trip for outstation travel?</button>
+    <div class="faq-answer">
+      <p>Absolutely. We provide both one-way (single trip) and round-trip cab booking options. You can choose what suits your plan — pay only for the drop with our one-way service or enjoy return comfort with a round trip.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">3. What type of cabs are available for outstation travel?</button>
+    <div class="faq-answer">
+      <p>We offer a wide range of AC vehicles including Hatchbacks, Sedans, SUVs, and Tempo Travellers — suitable for solo, family, or group travel. All vehicles are clean, sanitized, and maintained for long-distance journeys.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">4. How do I book an outstation cab with Kuber Cab?</button>
+    <div class="faq-answer">
+      <p>You can book easily via our website, WhatsApp, or by calling our support team. Just share your pickup location, travel destination, and trip type (one-way or round trip), and we’ll confirm your cab instantly.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">5. Is your outstation cab service safe for night travel or early morning trips?</button>
+    <div class="faq-answer">
+      <p>Yes, our outstation cabs are available for early morning departures and late-night travel. All drivers are experienced, routes are GPS-tracked, and safety is always our top priority.</p>
+    </div>
+  </div>
+</section>
+
 			
 	<?php include 'foot-nav.php'; ?>
 

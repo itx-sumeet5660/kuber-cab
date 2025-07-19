@@ -423,6 +423,45 @@ We’re on a mission to make travel easy and comfortable for everyone, one ride 
 				</div>	
 			</section>
 			<!-- End home-calltoaction Area -->
+			 <section class="faq-section">
+  <h2 class="faq-title">Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <button class="faq-question">1. How can I book a cab with Kuber Cab?</button>
+    <div class="faq-answer">
+      <p>You can book a cab easily through our website, WhatsApp, or by calling our customer support. We offer quick confirmation and 24/7 availability for all major routes like Nashik to Mumbai and Nashik to Pune.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">2. What types of cabs are available for outstation travel?</button>
+    <div class="faq-answer">
+      <p>We offer a range of AC vehicles including Sedans, SUVs, and Tempo Travellers for individuals, families, and group travel.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">3. Do you provide airport pickup and drop services?</button>
+    <div class="faq-answer">
+      <p>Absolutely! We provide 24/7 airport drop and pickup services for Nashik, Shirdi, Mumbai and Pune airports. Our drivers are punctual and ensure you reach your terminal on time.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">4. Are your cab fares fixed or does the price change later?</button>
+    <div class="faq-answer">
+      <p>All our fares are fixed and transparent. There are no hidden charges — you pay exactly what is quoted at the time of booking.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">5. Is Kuber Cab service available during early morning or late-night hours?</button>
+    <div class="faq-answer">
+      <p>Yes, our cabs are available 24/7, including early mornings and late nights. Just make sure to book in advance for smoother coordination.</p>
+    </div>
+  </div>
+</section>
+
 			
 	<?php include 'foot-nav.php'; ?>
 	

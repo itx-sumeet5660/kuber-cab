@@ -13,6 +13,7 @@
           <li class="menu-has-children"><a href="/outstation-cab-booking">Our Routes</a>
             <ul>
               <li><a href="/nashik-mumbai-cab-booking">Nashik to Mumbai Cab</a></li>
+              <li><a href="/nashik-pune-cab-booking">Nashik to Pune Cab</a></li>
             </ul>
           </li>
 

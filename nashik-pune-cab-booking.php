@@ -86,7 +86,7 @@
 								Book Nashik to Pune Cab – Safe, Affordable & Always On Time	
 							</h1>
 							<p class="pt-10 pb-10 text-white">
-								Travel hassle-free from Nashik to Mumbai with Kuber Cab. We offer safe, on-time, and affordable one-way and outstation cab services — perfect for families, solo travelers, and airport pickups. Our AC cabs with professional drivers ensure you ride in comfort every time.
+								Looking for a trusted Nashik to Pune cab service? Kuber Cab provides safe, affordable, and comfortable one-way and round-trip cabs with AC vehicles and professional drivers. Whether you're traveling to Pune Airport, Hinjewadi, Shivaji Nagar, or any major location, we offer doorstep pickup, 24/7 availability, and easy online cab booking for a smooth and reliable journey.
 							</p>
 							<a href="tel:+917775000223" class="primary-btn text-uppercase">Book Cab Now</a>
 						</div>
@@ -386,6 +386,46 @@
 				</div>	
 			</section>
 			<!-- End home-calltoaction Area -->
+<section class="faq-section">
+  <h2 class="faq-title">🚖 Nashik to Pune Cab Booking – Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <button class="faq-question">1. Do you provide cab service from Nashik to Pune?</button>
+    <div class="faq-answer">
+      <p>Yes, Kuber Cab offers comfortable and dependable Nashik to Pune cab services with experienced drivers and AC cabs. Whether you're heading to Pune city, Airport, Hinjewadi IT Park, Shivaji Nagar, or any major location, we ensure a smooth and safe ride.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">2. Can I book a one-way cab from Nashik to Pune?</button>
+    <div class="faq-answer">
+      <p>Absolutely. We offer affordable one-way cab services from Nashik to Pune, so you pay only for the drop without any hidden charges. It’s a great option for airport drops, business trips, or quick visits.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">3. Do you provide airport drop service to Pune from Nashik?</button>
+    <div class="faq-answer">
+      <p>Yes, we offer Nashik to Pune Airport cab service with timely pickups and well-maintained vehicles. Whether your flight is early morning or late at night, our drivers ensure punctual and hassle-free airport travel.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">4. How can I book a cab from Nashik to Pune?</button>
+    <div class="faq-answer">
+      <p>You can book easily through our website, WhatsApp, or by calling our support team. Just share your travel details, and we’ll confirm your booking instantly. You also get transparent pricing, no last-minute surprises, and real-time updates.</p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">5. What vehicles do you offer for the Nashik to Pune route?</button>
+    <div class="faq-answer">
+      <p>We have a wide fleet of AC cabs including Sedans, SUVs, and Tempo Travellers. Whether you’re traveling solo, with family, or in a group, we have the right vehicle to match your needs — clean, comfortable, and driven by professionals.</p>
+    </div>
+  </div>
+</section>
+
+
 			
 	<?php include 'foot-nav.php'; ?>
 
