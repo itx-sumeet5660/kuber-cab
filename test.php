@@ -94,7 +94,7 @@
 				</div>					
 			</section>
 			<!-- End banner Area -->	
-<!-- Custom Booking Form -->
+<!-- Custom Booking Form (Nashik to Mumbai) -->
 <div class="custom-booking-wrapper" id="custom-booking-form">
   <div class="custom-booking-tabs">
     <button class="custom-tab active" data-tab="oneway">ONE WAY</button>
@@ -104,34 +104,35 @@
   <!-- ONE WAY FORM -->
   <form class="custom-booking-form active" id="oneway" action="oneway-mail.php" method="POST">
     <input type="hidden" name="form_type" value="oneway">
-    <input type="hidden" name="page_title" id="page_title_oneway" value="Nashik to Mumbai One Way Booking">
+    <input type="hidden" name="location_id" value="nashik-mumbai-oneway">
+    <input type="hidden" name="page_title" value="Nashik to Mumbai One Way Booking">
 
     <div class="custom-booking-row">
       <div class="custom-col">
         <label>NAME</label>
-        <input type="text" name="name" placeholder="Enter Your Name" required>
+        <input type="text" name="name" required>
       </div>
       <div class="custom-col">
         <label>CONTACT NUMBER</label>
-        <input type="tel" name="contact" placeholder="Enter Contact Number" required>
+        <input type="tel" name="contact" required>
       </div>
     </div>
 
     <div class="custom-booking-row">
       <div class="custom-col">
         <label>EMAIL</label>
-        <input type="email" name="email" placeholder="Enter Your Email" required>
+        <input type="email" name="email" required>
       </div>
     </div>
 
     <div class="custom-booking-row">
       <div class="custom-col">
         <label>FROM</label>
-        <input type="text" name="from" placeholder="Enter Pickup Location" required>
+        <input type="text" name="from" value="Nashik" required>
       </div>
       <div class="custom-col">
         <label>TO</label>
-        <input type="text" name="to" placeholder="Enter Drop Location" required>
+        <input type="text" name="to" value="Mumbai" required>
       </div>
     </div>
 
@@ -143,8 +144,8 @@
       <div class="custom-col">
         <label>PICK UP TIME</label>
         <div style="display: flex; gap: 10px;">
-          <input type="time" name="pickup_time" id="pickup_time_oneway" required>
-          <select name="ampm" id="ampm_oneway" required>
+          <input type="time" name="pickup_time" required>
+          <select name="ampm" required>
             <option value="AM">AM</option>
             <option value="PM">PM</option>
           </select>
@@ -158,34 +159,35 @@
   <!-- ROUND TRIP FORM -->
   <form class="custom-booking-form" id="roundtrip" action="roundtrip-mail.php" method="POST">
     <input type="hidden" name="form_type" value="roundtrip">
-    <input type="hidden" name="page_title" id="page_title_roundtrip" value="Nashik to Mumbai Round Trip Booking">
+    <input type="hidden" name="location_id" value="nashik-mumbai-roundtrip">
+    <input type="hidden" name="page_title" value="Nashik to Mumbai Round Trip Booking">
 
     <div class="custom-booking-row">
       <div class="custom-col">
         <label>NAME</label>
-        <input type="text" name="name" placeholder="Enter Your Name" required>
+        <input type="text" name="name" required>
       </div>
       <div class="custom-col">
         <label>CONTACT NUMBER</label>
-        <input type="tel" name="contact" placeholder="Enter Contact Number" required>
+        <input type="tel" name="contact" required>
       </div>
     </div>
 
     <div class="custom-booking-row">
       <div class="custom-col">
         <label>EMAIL</label>
-        <input type="email" name="email" placeholder="Enter Your Email" required>
+        <input type="email" name="email" required>
       </div>
     </div>
 
     <div class="custom-booking-row">
       <div class="custom-col">
         <label>FROM</label>
-        <input type="text" name="from" placeholder="Enter Pickup Location" required>
+        <input type="text" name="from" value="Nashik" required>
       </div>
       <div class="custom-col">
         <label>TO</label>
-        <input type="text" name="to" placeholder="Enter Drop Location" required>
+        <input type="text" name="to" value="Mumbai" required>
       </div>
     </div>
 
@@ -201,8 +203,8 @@
       <div class="custom-col">
         <label>PICK UP TIME</label>
         <div style="display: flex; gap: 10px;">
-          <input type="time" name="pickup_time" id="pickup_time_roundtrip" required>
-          <select name="ampm" id="ampm_roundtrip" required>
+          <input type="time" name="pickup_time" required>
+          <select name="ampm" required>
             <option value="AM">AM</option>
             <option value="PM">PM</option>
           </select>
@@ -213,7 +215,7 @@
     <button type="submit" class="custom-submit-btn">Submit</button>
   </form>
 </div>
-<!-- Custom Booking Form ends -->
+
 
 
 			<!-- Start home-about Area -->
